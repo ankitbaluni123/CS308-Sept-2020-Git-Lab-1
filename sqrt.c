@@ -3,7 +3,6 @@ positive number. */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 // Ankit Baluni -B18007
 int main(int argc, char* argv[]) {
 	
@@ -14,6 +13,7 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	printf("Added exit message\n");
 	return(0);
 
 } // end main
